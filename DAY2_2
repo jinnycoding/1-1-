@@ -7,8 +7,12 @@ public class Main{
     int A = in.nextIn();
     in.close();
     
-    if (A>B) System.out.println(">");
-    else if(A<B) System.out.println("<");
-    else System.out.println("==");
+    if (A>B){
+    System.out.println(">");
+    } else if(A<B){
+    System.out.println("<");
+    } else{
+    System.out.println("==");
+    }
   }
 }
