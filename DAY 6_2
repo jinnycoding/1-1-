@@ -1,0 +1,20 @@
+//N개의 숫자가 공백 없이 쓰여있다. 이 숫자를 모두 합해서 출력하는 프로그램을 작성하시오.
+//첫째 줄 숫자 개수, 둘째 줄에 숫자N개 공백없이 주어짐
+import java.util.Scanner;
+
+public class Main{
+  public static void main(String[] args){
+    Scanner in = new Scanner(System.in);
+    
+    int N = in.nextInt();
+    String a = in.next();
+    in.close();
+    
+    int sum = 0;
+    
+    for (int i = 0; i<N; i++){
+      sum += a.charAt(i)-'0';
+    }
+    System.out.print(sum);
+  }
+}
