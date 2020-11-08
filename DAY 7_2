@@ -1,0 +1,20 @@
+//설탕배달
+
+//개수 최소화, 정확하지 않으면 -1
+if (조건){
+  System.out.println("-1")
+}
+//5kg 3kg
+
+import java.util.Scanner;
+
+public class Main{
+  public static void(String[] args){
+    System in = new.Scanner(System.in);
+    
+    int W = in.nextInt();
+    
+    //조건..을 모르겠네^^->내일 다시 
+    
+  }
+}
