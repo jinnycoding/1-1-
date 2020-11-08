@@ -1,0 +1,25 @@
+//달팽이는 올라가고 싶다
+//height=V, can climb=A, get fallen = B
+//V=nA-nB->n=V/(A-B)-1:wrong
+//(V-B)/(A-B)->며칠
+//A,B,V
+
+import java.util.Scanner;
+
+public class Main{
+  
+  public static void(String[] args){
+      System in = new Scanner(System.in);
+
+      int A = in.nextInt();
+      int B = in.nextInt();
+      int V = in.nextInt();
+      
+      int day = (V - B)/(A-B);
+      
+      if ((V-B)%(A-B) !=0){
+        day++;
+      }
+      System.out.println(day);
+  }
+}
