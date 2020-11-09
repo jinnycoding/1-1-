@@ -1,0 +1,10 @@
+//고양이
+import java.util.Scanner;
+public class Main{
+  public static void(String[] args){
+    System.out.println("\    /\");
+    System.out.println(" )  ( ')");
+    System.out.println("(  /  )");
+    System.out.println(" \(__)|");
+  }
+}
