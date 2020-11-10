@@ -9,7 +9,7 @@
 import java.util.Scanner;
 
 public class Main{
-  public static void(String[] args){
+  public static void main(String[] args){
     Scanner in = new.Scanner(Sysytem.in);
     
     int A = in.nextIn();
