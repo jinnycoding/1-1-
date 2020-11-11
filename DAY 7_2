@@ -17,4 +17,10 @@ public class Main{
     //조건..을 모르겠네^^->내일 다시 
     
   }
+  if(){
+    System.out.println(answer)
+  }
+  else{
+  System.out.println("-1")
+  }
 }
