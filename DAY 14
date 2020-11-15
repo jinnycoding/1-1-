@@ -1,0 +1,25 @@
+/*45분 일찍 시간*/
+import java.util.Scanner;
+
+public class Main{
+
+    public static void main(String[] agrs) {
+        Scanner sc = new Scanner(System.in);
+        int h = sc.nextInt();
+        int m = sc.nextInt();
+        sc.close();
+        if (h>23 || m>60){
+            System.out.println("잘못된 시간입니다");
+        }
+        if (m < 45){
+            h--;
+            m = 60-(45-m);
+            if (h<0){
+                h=23;
+            }
+            System.out.println(h + ":" + m);
+        }
+        else {System.out.println(h + ":" + (60-m));}
+        }
+
+    }
